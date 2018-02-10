@@ -24,4 +24,8 @@ toBengaliNum('a.123') // returns 'Invalid input type'
 ```
 
 ## Test
-Test this module with jest
+To test this module you have to have jest installed globally.
+
+```bash
+npm test
+```
