@@ -1,0 +1,28 @@
+{
+  "name": "bengali-number",
+  "version": "0.1.0",
+  "description": "A simple node module to convert english number to Bengali",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sh4hids/bengali-number.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Number",
+    "Bengali"
+  ],
+  "author": {
+    "name": "Shahidul Islam Majumder",
+    "email": "hello@shahids.me",
+    "url": "http://shahids.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sh4hids/bengali-number/issues"
+  },
+  "homepage": "https://github.com/sh4hids/bengali-number#readme"
+}
