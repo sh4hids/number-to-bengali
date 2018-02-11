@@ -1,1 +1,1 @@
-"use strict";function toBengaliNum(t){var r={0:"০",1:"১",2:"২",3:"৩",4:"৪",5:"৫",6:"৬",7:"৭",8:"৮",9:"৯",".":"."};if(isNaN(parseFloat(t))||isNaN(t-0))return"Invalid input type";var i="";return t.toString().split("").forEach(function(t){return i+=r[t]}),i}module.exports=toBengaliNum;
+"use strict";function toBengaliNum(t){var r={0:"০",1:"১",2:"২",3:"৩",4:"৪",5:"৫",6:"৬",7:"৭",8:"৮",9:"৯",".":".","-":"-"};if(isNaN(parseFloat(t))||isNaN(t-0))return"Invalid input type";var i="";return t.toString().split("").forEach(function(t){return i+=r[t]}),i}module.exports=toBengaliNum;

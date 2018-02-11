@@ -20,6 +20,7 @@ const toBengaliNum = require('number-to-bengali');
 toBengaliNum(123) // returns '১২৩'
 toBengaliNum(1.23) // returns '১.২৩'
 toBengaliNum('12.3') // returns '১২.৩'
+toBengaliNum('-12.3') // returns '-১২.৩'
 toBengaliNum('a.123') // returns 'Invalid input type'
 ```
 

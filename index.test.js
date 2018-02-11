@@ -13,6 +13,10 @@ test('1.2 should be converted to ১.২', () => {
   expect(toBengaliNum(1.2)).toBe('১.২');
 });
 
+test('-1.2 should be converted to -১.২', () => {
+  expect(toBengaliNum(-1.2)).toBe('-১.২');
+});
+
 test('1.a should return to ' + msg, () => {
   expect(toBengaliNum('1.a')).toBe(msg);
 });
